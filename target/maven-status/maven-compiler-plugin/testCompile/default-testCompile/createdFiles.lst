@@ -1,0 +1,3 @@
+com\zoolatech\pojos\UserPojo.class
+com\zoolatech\baseUrl\PetStorePlaceHolderBaseUrl.class
+com\zoolatech\post_requests\CreateUser.class
