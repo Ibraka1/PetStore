@@ -19,7 +19,7 @@ public class CreateUser extends PetStorePlaceHolderBaseUrl {
         spec.pathParam("first","user");
 
         //Create a payload
-        UserPojo payload = new UserPojo(155,null,"Ibrahim","Akar",
+        UserPojo payload = new UserPojo(156,null,"Ibrahim","Akar",
                 "ibrahim123@gmail.com","ibrahim123","5551112233",0);
 
         //Send Request and take response
@@ -28,6 +28,7 @@ public class CreateUser extends PetStorePlaceHolderBaseUrl {
         //Make assertions
         response.prettyPrint();
         JsonPath jsonForPost = response.jsonPath();
+
         assertEquals(200,response.statusCode());
         assertEquals("application/json",response.contentType());
         assertEquals("keep-alive",response.header("Connection"));
