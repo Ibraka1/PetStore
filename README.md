@@ -1,4 +1,4 @@
-# Pet Store Api Test 
+# Pet Store Api Automation Test 
 
 Pet Store is a opensource API that performs requests to the database to get, add, 
 update or delete records based on the request. In this project I just made post request and assertions
